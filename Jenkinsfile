@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        frontendRepositoryName = "anarghya15/peerpulse-frontend"
-        backendRepositoryName = "anarghya15/peerpulse-backend"
+        frontendRepositoryName = "pranav243/peerpulse-frontend"
+        backendRepositoryName = "pranav243/peerpulse-backend"
         KUBECONFIG = "/var/lib/jenkins/.kube/config"
         AZURE_SUBSCRIPTION_ID = credentials('azure-subscription-id')
         AZURE_TENANT_ID = credentials('azure-tenant-id')
